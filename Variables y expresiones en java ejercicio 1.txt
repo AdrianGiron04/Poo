@@ -1,0 +1,171 @@
+definir variables y expresiones en java;
+precio litro = 1,35;
+desprecio por kilometros= 0,08;
+volcamionM3 = 10.0;
+fCO2 = 2,68 kg/litro;
+galporlitro = 0,264172;
+vmin = 30;
+vmax = 90;
+va = 40;
+vb = 80;
+ca  0,05;
+cb = 0,09;
+a = -0,0008;
+b = 0,08;
+c = 4,0;
+largo = 2.0 metros;
+ancho = 1.2 metros;
+alto = 1,1 metros;
+p1 = 2,5;
+p2 = 3,0;
+p3 = 2,0;
+litro 1 = 5,1 litros;
+litro 2 = 6,9 litros;
+litro 3 = 4,3 litros;
+masacargakg = 1200;
+
+velocidad 1 = distancia 1 / tiempo 1;
+distancia 1 = 42.0 km;
+tiempo 1 = 0.9 horas;
+velocidad = 42,0 km / 0.9 horas;
+resultado = 46.67 km/h;
+
+velocidad 2 = distancia 2 / tiempo 2;
+distancia 2 = 58,5 km;
+tiempo 2 = 1.4 horas;
+velocidad 2 = 58,5 km / 1.4 horas;
+velocidad 2 = 41.79 km/horas;
+
+velocidad 3 = distancia 3 / tiempo 3;
+distancia 3 = 37,2 km;
+tiempo 3 = 0,8 horas;
+velocidad 3 = 37,2 km / 0.8 horas;
+velocidad 3 = 46.5 km/horas;
+
+velocidad promedio = (distancia 1 velocidad 1 + distancia 2 velocidad 2 +  distancia 3 velocidad 3) / distancia 1 + distancia 2 + distancia 3;
+velocidad promedio = (42.0 km * 46.67 km/horas + 58.5 km * 41.79 km/horas + 37.2 km * 46.5 km/horas) / (42.0 km + 58.5 km + 37.2 km);
+velocidad promedio = (1960.14 km^2/horas + 2444.715 km^2/horas + 1729.8 km^2/horas) / 137.7 km;
+velocidad promedio = 6134.655 km^2/horas / 137.7 km;
+velocidad promedio = 44.55 km/horas; 
+conversion a m/s;
+velocidad promedio = 44.55 km/horas * (1000 m/km) / (3600 seg/horas);
+velocidad promedio = 12.37 m/segundos;
+
+kilometros por litro 1 = distancia 1 / litro 1;
+kilmetros por litro 1 = 42.0 km / 5.1 litros;
+kilometros por litro 1 = 8.24 km/litro;
+kilometros por litro 2 = distancia 2 / litro 2;
+kilometros por litro 2 = 58.5 km / 6.9 litros;
+kilometros por litro 2 = 8.48 km/litro;
+kilometros por litro 3 = distancia 3 / litro 3;
+kilmetros por litro 3 = 37.2 km / 4.3 litros;
+kilometros por litro 3 = 8.65 km/litro;
+kilometros por litro total = (distancia 1 + distancia 2 + distancia 3) / (litro 1 + litro 2 + litro 3);
+kilometros por litro total = (42.0 km + 58.5 km + 37.2 km) / (5.1 litros + 6.9 litros + 4.3 litros);
+kilometros por litro total = 137.7 km / 16.3 litros;
+kilometros por litro total = 8.45 km/litro;
+costo combustible = (litro 1 + litro 2 + litro 3) * precio litro;
+costo combustible = (5.1 litros + 6.9 litros + 4.3 litros) * 1.35;
+costo combustible = 16.3 pesos * 1.35;
+costo combustible = 22.05 pesos;
+
+depreciacion = distancia 1 + distancia 2 + distancia 3) * desprecio por kilometros;
+depreciacion = (42.0 km + 58.5 km + 37.2 km) * 0.08;
+depreciacion = 137.7 km * 0.08;
+depreciacion = 11.016;
+redondear depreciacion = 11.02;
+
+peajes = p1 + p2 + p3;
+peajes = 2.5 + 3.0 + 2.0;
+peajes = 7.5;
+
+costo directo = costo combustible + depreciacion + peajes;
+costo directo = 22.05 + 11.02 + 7.5;
+costo directo = 40.57;
+
+costo por kilometro = costo directo / (distancia 1 + distancia 2 + distancia 3);
+costo por kilometro = 40.57 / 137.7;
+costo por kilometro = 0.294 pesos/km;
+
+volumenm3 = largo * ancho * alto;
+volumenm3 = 2.0 metros * 1.2 metros * 1.1 metros;
+volumenm3 = 2.64 metros cúbicos;
+
+densidad = masacargakg / volumenm3;
+densidad = 1200 kg / 2.64 metros cúbicos;
+densidad = 454.55 kg/metro cúbico;
+
+ocupacion = volumenm3 / volcamionM3;
+ocupacion = 2.64 metros cúbicos / 10.0 metros cúbicos;
+ocupación = 0.264;
+
+CO total = (litro 1 + litro 2 + litro 3) * fCO2;
+CO total = (5.1 litros + 6.9 litros + 4.3 litros) * 2.68 kg/litro;
+CO total = 16.3 litros * 2.68 kg/litro;
+CO total = 43.64 kg;
+
+CO por kilometro = CO total / (distancia 1 + distancia 2 + distancia 3);
+CO por kilometro = 43.64 kg / 137.7 km;
+CO por kilometro = 0.316 kg/km;
+
+v m/s prom= vprom * 1000 m/km / 3600 seg/horas;
+v m/s prom= 12.37 m/segundos;
+
+gal total = (litro 1 + litro 2 + litro 3 * galporlitro;
+gal total = (5.1 litros + 6.9 litros + 4.3 litros) * 0.264172;
+gal total = 16.3 litros * 0.264172;
+gal total = 4.31 galones;
+
+v normal = (vprom - vmin) / (vmax - vmin);
+v normal = (12.37 m/segundos - 30 m/segundos) / (90 m/segundos - 30 m/segundos9;
+v normal = (-17.63 m/segundos) / (60 m/segundo9)
+v normal = 0.2938;
+
+v media = (velocidad 1 + velocidad 2 + velocidad 3) / 3;
+v media = (46.67 km/horas + 41.79 km/horas + 46.5 km/horas) / 3
+v media = 44.65 km/horas;
+ σ √ ( (velocidad 1 - v media)² + (velocidad 2 - v media)² + (velocidad 3 - v media)² ) / 3;
+ σ = √ ( (46.67 - 44.65))² + (41.79 - 44.65)² + (46.5 - 44.65)² ) / 3;
+ σ = √ ( (2.02))² + (-2.86)² + (1.85)² ) / 3;
+ σ = √ ( 4.08 + 8.18 + 3.42) / 3;
+ σ = √ (15.68 / 3);
+ σ = √ (15.68) / 3;
+ σ = 1.44 km/horas;
+
+v pond_t = tiempo 1 * velocidad 1 + tiempo 2 * velocidad 2 + tiempo 3 * velocidad 3 / (tiempo 1 + tiempo 2 + tiempo 3);
+v pond_t = 0.9 horas * 46.67 km/horas + 1.4 horas * 41.79 km/horas + 0.8 horas * 46.5 km/horas / (0.9 horas + 1.4 horas + 0.8 horas);
+v pond_t = 42.003 km + 58.506 km + 37.2 km / 3.1 horas;
+v pond_t = 137.709 km / 3.1 horas;
+v pond_t = 44.45 km/horas;
+
+c v prom = ca + (cb - ca) * (v prom - va) / (vb - va);
+c v prom = 0.05 + (0.09 - 0.05) * (44.55 km/horas - 40 km/horas) / (80 km/horas - 40 km/horas);
+c v prom = 0.05 + 0.04 * (4.55 km/horas) / 40 km/horas;
+c v prom = 0.05 + 0.04 * 0.11375;
+c v prom = 0.05 + 0.00455;
+c v prom = 0.05455;
+
+costo mantenimiento = c v prom * (distancia 1 + distancia 2 + distancia 3);
+costo mantenimiento = 0.05455 * 137.7 km;
+costo mantenimiento = 7.52;
+
+kilometros por litro v = av² + bv + c;
+kilometros por litro v = -0.0008 * (44.55 km/horas)² + 0.08 * (44.55 km/horas) + 4.0;
+kilometros por litro v = -0.0008 * 1988.7025 + 3.564 + 4.0;
+kilometros por litro v = -1.59096 + 3.564 + 4.0;
+kilometros por litro v = 5.97304 km/ litro;
+
+kilometros por litro modelo = kilometros por litro (v prom);
+kilometros por litro modelo = 5.97304 km/litro;
+
+litros modelo = (distancia 1 + distancia 2 + distancia 3) / kilometros modelo;
+litros modelo = (137.7 km / 5.97304 km/litro;)
+litros modelo = 23.05 litros;
+
+w1 + w2 + w3 + w4 = 1;
+score = w1 ( 1 / costo por kilometro) + w2 * kilometros por litro total + w3 * (1 /CO2 por kilometro) + w4 * (1 / 1 + σ);
+w1 = 0.25 ( 1 / 0.294) + 0.25 * 8.45 + 0.25 * (1 / 0.316) + 0.25 * (1 / (1 + 1.44));
+score = 0.25 * 3.401 + 0.25 * 8.45 + 0.25 * 3.165 + 0.25 * 0.410;
+score = 0.85025 + 2.1125 + 0.79125 + 0.1025;
+score = 3.8565; 
+
