@@ -1,0 +1,67 @@
+public class Producto {
+private string codigo;
+private string descripcion;
+privante int cantidad;
+private double precioUnitario;
+
+public Producto () {
+codigo = "000000"
+descripcion = "Sin descripción";
+cantidad = 1;
+precioUnitario = 1;
+precioUnitario = 0;
+}
+}
+public producto(string c, string d, int cant, double precio) {
+if (c.isEmpty()) {
+codigo = "0000";
+} else {
+codigo = c;
+}
+}
+if (d.isEmpty()) {
+codigo = "0000";
+} else {
+codigo = c;
+}
+if (d.isEmpty()) {
+descripcion = "Sin descripcion";
+} else {
+descripcion = "Sin descripcion";
+} else {
+descripcion = d;
+}
+if (cant < 1) {
+cantidad = 1
+} else {
+cantidad = cant;
+}
+if precio < 0 {
+precioUnitario = 0;
+} else {
+precioUnitario = precio;
+}
+
+public double calcularSubtotal() {
+return cantidad * precioUnitario;
+}
+public void aplicarDescuento(double porcentaje) {
+if (porcentaje > 0 &&) porcentaje <= 50) {
+double descuento = (precioUnitario * porcentaje / 100) {
+precioUnitario = precioUnitario - descuento;
+}
+}
+}
+public void incrementarCantidad(int valor) {
+if (valor >0) {
+
+}
+}
+public string toString() {
+return "codigo: " + codigo +
+"\nDescripcion: " + descripcion +
+"\nCantidad: " + cantidad +
+"\nPrecio unitario: " + precioUnitario +
+"\nSubtotal: " + calcularSubtotal();
+}
+
